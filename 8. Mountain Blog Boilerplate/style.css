@@ -1,19 +1,23 @@
 * {
   font-family:'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: rgb(226, 236, 255);
   font-size: 18px;
+  width: 900px;
+  margin: auto;
+  margin-top: 20px;
 }
 
 main {
   margin: auto;
-  width: 900px;
   margin-bottom: 50px;
-
+  background-color: white;
 }
-
 
 .image1 {
   width: 900px;
-  margin-top: 20px;
   position: static;
 }
 
@@ -23,12 +27,11 @@ main {
 
 #title {
   background-color: rgba(199, 199, 199, 0.65);
-  padding: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
   position: absolute;
   bottom: 30px;
-  left: 80px;
+  left: 50px;
+  padding: 20px;
+  margin: 0px;
 }
 
 h1 {
@@ -42,7 +45,6 @@ h1 {
 }
 
 article {
-  float: left;
   margin-top: 10px;
   margin-left: 110px;
   margin-right: 110px;
@@ -52,7 +54,7 @@ article {
   float: right;
   font-size: 14px;
   margin-left: 15px;
-
+  margin-right: 0px;
 }
 
 #image2 {
@@ -67,11 +69,15 @@ span {
   border-radius: 3px;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-right: 5px;
 }
 
+footer {
+  border-top: 1px solid grey;
+}
 footer, .footer-text {
-  border-top: 1px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: white;
   text-align: center;
 }
